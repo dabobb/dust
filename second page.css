@@ -1,0 +1,365 @@
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;1,8..144,100;1,8..144,200;1,8..144,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', serif; */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-holder{
+    width: 90%;
+    align-items: center;
+
+}
+
+.first-one{
+    width: 100%;
+    height: 100vh;
+}
+
+.first-one > img{
+    width: 100%;
+    height: 100vh;
+}
+
+.enter{
+    width: 50%;
+    height: 61vh;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 100px;
+    left: 28%;
+    top: 70%;
+    background-color: white;
+    z-index: 10;
+}
+
+.enter > h2{
+    text-align: center;
+    margin: 30px auto;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #97AC9B;
+}
+
+.enter > p{
+    text-align: center;
+    margin: 30px auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    width: 85%;
+    line-height: 25px;
+}
+
+.Fight{
+    position: absolute;
+    left: 30%;
+}
+
+.belt{
+    width: 230px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #97AC9B;
+    border: none;
+}
+
+.belt > a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.second-one{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    background-color: #97AC9B;
+}
+
+.card-container{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    width: 23%;
+    height: 58vh;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    /* border: 1px solid blue; */
+}
+
+.circle{
+    width: 90px;
+    height: 90px;
+    margin: 25px auto;
+    border-radius: 50%;
+    background-color: #97AC9B;
+}
+
+
+/* .image-holder{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    top: 40%;
+    
+} */
+
+.image-holder > img{
+    width: 40%;
+    margin-left: 30px;
+    position: absolute;
+    top: 50px;
+}
+
+.shift > h4{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 50px auto;
+}
+
+.shift > p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px auto;
+    font-size: 13px;
+    width: 90%; 
+    line-height: 20px;
+}
+
+.third-one{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid #97AC9B;
+    background-color: #97AC9B;
+}
+
+.third-one > h2{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.insert{
+    width: 80%;
+    height: 60vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 30px;
+    top: 10%;
+    left: 100px;
+    position: relative;
+}
+
+.bakery{
+    width: 40%;
+    height: 90vh;
+    /* border: 1px solid blue; */
+    /* position: absolute; */
+    align-items: center;
+    /* margin: 60px auto; */
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 30px;
+    background-color: white;
+    z-index: 10;
+}
+
+
+.spoon{
+    width: 40%;
+    height: 90vh;
+    /* border: 1px solid blue; */
+    /* position: absolute; */
+    align-items: center;
+    /* margin: 60px auto; */
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 30px;
+    background-color: white;
+    z-index: 10;
+}
+
+.python{
+    width: 90%;
+    height: 35vh;
+    border: 1px solid black;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+/* .dog{
+    height: 48vh;
+} */
+
+.bakery > .son{
+    background-position: center;
+    background-size: cover;
+    background-image: url(./ggg.jpg);
+}
+
+.spoon > .dog{
+    background-position: top;
+    background-size: cover;
+    background-image: url(./cvccv.jpg);
+}
+
+.camper > p{
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    margin: 90px auto;
+    line-height: 30px;
+    font-size: 1.2rem;
+    width: 80%;
+}
+
+.campers > p{
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    margin: 40px auto;
+    line-height: 30px;
+    font-size: 1.2rem;
+    width: 80%;
+}
+
+
+.binance{
+    position: absolute;
+    top: 460px;
+    right: 180px;
+}
+
+.rail{
+    width: 230px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #97AC9B;
+    border: none;
+}
+
+.rail > a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fourth-one{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.intel{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.computer{
+    margin: 30px auto;
+    height: 95vh;
+    width: 50%;
+    /* border: 1px solid blue; */
+}
+
+.pocket{
+    height: 90vh;
+    width: 80%;
+    margin: 10px auto;
+    /* border: 1px solid orange; */
+}
+
+.pocket > h5{
+    margin: 100px auto;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pocket > h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.pocket > p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.bag{
+    position: absolute;
+}
+
+.driver{
+    width: 230px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #97AC9B;
+    border: none;
+}
+
+.driver > a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.computer > img{
+    height: 80vh;
+    margin: 80px auto;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+
+@media(max-width:768px){
+    /* .belt{
+        margin-left: -30px;
+    } */
+
+    .first-one > img{
+        width: 100%;
+        height: 100vh;
+    }
+
+}
